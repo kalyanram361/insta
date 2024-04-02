@@ -1,0 +1,25 @@
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}">
+
+<div id="wrapper">
+  <div class="main-content">
+    <div class="header">
+      <img src="{{ url_for('static', filename='images/zqpwkLQ.png') }}" alt="Image">
+
+    </div>
+    <div class="l-part">
+      <form action="/" method="post">
+        <input type="text" placeholder="Username" class="input-1" name="username" required>
+        <div class="overlap-text">
+          <input type="password" placeholder="Password" class="input-2" name="password" required>
+          <a href="#">Forgot?</a>
+        </div>
+        <input type="submit" value="Log in" class="btn">
+      </form>
+    </div>
+  </div>
+  <div class="sub-content">
+    <div class="s-part">
+      Don't have an account? <a href="#">Sign up</a>
+    </div>
+  </div>
+</div>
